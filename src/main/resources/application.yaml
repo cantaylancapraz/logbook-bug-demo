@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: gateway
+          uri: ${wiremock.url}
+          predicates:
+            - Path=/**
+
+
+logbook:
+  format:
+    style: json

@@ -1,0 +1,22 @@
+{
+  "id" : "0520821d-fddf-4155-b391-747f42d7bd8e",
+  "name" : "api",
+  "request" : {
+    "url" : "/api",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 503,
+    "body" : "no healthy upstream",
+    "headers" : {
+      "date" : "Mon, 24 Oct 2022 20:22:46 GMT",
+      "content-type" : "application/json",
+      "strict-transport-security" : "max-age=15724800; includeSubDomains",
+      "x-frame-options" : "SAMEORIGIN",
+      "x-content-type-options" : "nosniff"
+    }
+  },
+  "uuid" : "0520821d-fddf-4155-b391-747f42d7bd8e",
+  "persistent" : true,
+  "insertionIndex" : 3
+}
